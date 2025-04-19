@@ -1,4 +1,4 @@
 <?php
-echo "<h1>Welcome to the Restaurant Inventory System</h1>";
+require_once '../config/db.php';
+echo "<h2>Database connection successful!</h2>";
 ?>
-//lets start
