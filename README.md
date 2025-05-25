@@ -11,3 +11,15 @@ A simple PHP + MySQL system to manage restaurant stock and ingredients.
 - PHP
 - MySQL
 - HTML/CSS/JavaScript
+
+## Guided instructions 
+
+Login: In this interface we can use our registered Email and Password, adding user is fully responsible by the restaurant manager. Users can define into 2 parts as Admin and Staff 
+
+View Inventory: this is the main dashboard that we used to show up the items that are listed and it will show from name to low stock feature as we mentioned earlier.
+
+Update Inventory: In this we can update the current inventory and add or remove new quantity in the system.
+
+View Logs: In this feature we can track who updates the system and what are the stock that we really needed 
+
+Manage Users: This function mainly applies for the Manager/Admin of the system; they can add or remove a staff member from the system.
