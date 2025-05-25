@@ -2,20 +2,17 @@
 session_start();
 require_once '../../config/db.php';
 
-$email = $_POST['email'];
+$username = $_POST['name'];
 $password = $_POST['password'];
 
-// Query to find the user by email
-$sql = "SELECT * FROM users WHERE email = ?";
+$sql = "SELECT * FROM users WHERE name = ?";
 $stmt = $conn->prepare($sql);
-$stmt->bind_param("s", $email);
+$stmt->bind_param("s", $username);
 $stmt->execute();
 $result = $stmt->get_result();
 
 if ($result->num_rows === 1) {
     $user = $result->fetch_assoc();
-
-    // Verify password
     if (password_verify($password, $user['password'])) {
         $_SESSION['user'] = $user;
         header("Location: ../../public/dashboard.php");
