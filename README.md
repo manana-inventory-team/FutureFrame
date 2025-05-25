@@ -1,6 +1,6 @@
 # Restaurant Inventory Management System
 
-A simple PHP + MySQL system to manage restaurant stock and ingredients.
+The Web-Based Inventory Management System is designed to help Manana Sia Riga, a Mexican food and beverage restaurant, efficiently track and manage its inventory. The system will provide real-time stock tracking, automatic stock adjustments, order decision support, item management, and user access control. By implementing this system, the restaurant aims to reduce food wastage, optimize ordering processes, and enhance operational efficiency.
 
 ## Setup
 1. Import `sql/schema.sql` in phpMyAdmin
