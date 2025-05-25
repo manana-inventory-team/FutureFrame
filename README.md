@@ -22,3 +22,6 @@ Manage Users: This function mainly applies for the Manager/Admin of the system; 
 
 ## Team Members
 Osura Wijeweera 221ADB215 ​- Developer, Project Manager Lahiru Atigala 221ADB184​ - Developer, Tester Avishka Sandun 221ADB142​ - Designer UI,UX Isuri Nilupuli 221ADB141​ - Designer Keyan Gisadh 221ADB140​ - Developer, Data Collector Ravika mahapatabnedhige - Developer, BA
+
+
+Recorded video demo: https://drive.google.com/file/d/1EUUjt6DJa8s60xokbvXG-3KE5Ftt6AnE/view?usp=sharing
